@@ -2,6 +2,7 @@ package com.test;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -21,13 +22,12 @@ WebDriverManager.chromedriver().setup();
 
  
 
-// ChromeOptions options = new ChromeOptions();
+ChromeOptions options = new ChromeOptions();
 
-//
 
 // //add the headless argument
 
-// options.addArguments("headless");
+ options.addArguments("headless");
 
  
 
