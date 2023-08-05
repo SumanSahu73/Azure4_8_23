@@ -24,10 +24,11 @@ WebDriverManager.chromedriver().setup();
 
 ChromeOptions options = new ChromeOptions();
 
+//
 
 // //add the headless argument
 
- options.addArguments("headless");
+options.addArguments("headless");
 
  
 
